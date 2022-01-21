@@ -6,8 +6,8 @@ import { useCart } from '../../hooks/useCart';
 
 import { Product } from '../../components/Product';
 import { AmountControl } from '../../components/Product/AmountControl';
-import { BuyContainer } from '../../components/Product/BuyContainer';
-import { Share } from '../../components/Product/Share';
+import { BuyContainer } from '../../components/Product/BuyButtonContainer';
+import { Share } from '../../components/Product/ShareButton';
 import { loadFormatedProduct } from '../../utils';
 import { ProductImage } from '../../components/Product/ProductImage';
 

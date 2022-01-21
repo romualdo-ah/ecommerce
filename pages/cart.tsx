@@ -7,7 +7,7 @@ import { ImBin2 } from 'react-icons/im';
 import { productInterface } from '../interfaces/';
 import { useCart } from '../hooks/useCart';
 
-import { BuyContainer } from '../components/Product/BuyContainer';
+import { BuyContainer } from '../components/Product/BuyButtonContainer';
 import { ProductCardCart } from '../components/Product/ProductCardCart';
 
 export default function Cartpage() {

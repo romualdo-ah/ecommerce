@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { productProp } from '../../../interfaces';
 import { Product } from '../index';
-import { SaveOnCart } from '../SaveOnCart';
-import {Share} from '../Share';
+import { SaveOnCart } from '../SaveOnCartButton';
+import {Share} from '../ShareButton';
 import { ProductImage } from '../ProductImage';
 
 export function ProductCard({ product }: productProp) {
