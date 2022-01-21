@@ -6,17 +6,7 @@ This is a project to testing coding habilities, it is part of the recruiting pro
 
 ### Some consideration
 
-Project uses an external URL to serve the images so the original (lorempixel.com) was'nt working so it changed (lorempixel.com.br).
-
-```
-lorempixel
-```
-
-
-```
-lorempixel
-```
-
+Project uses an external URL to serve the images so the original (http://lorempixel.com) was'nt working so it changed (http://lorempixel.com.br).
 
 ## Packages in this project
 
