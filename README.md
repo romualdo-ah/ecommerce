@@ -14,7 +14,7 @@ This is a project for test coding habilities, it is part of the recruiting proce
 * Tailwind.css
 * React-icons
 * Sweetalert2
-* react-lazy-load-component
+* react-lazy-load-image-component
 
 ## [Checklist here](https://www.notion.so/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac)
 
