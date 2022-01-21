@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { productProp } from '../../../interfaces';
 import { Product } from '../index';
-import { OnCart } from '../OnCart';
+import { SaveOnCart } from '../SaveOnCart';
 import {Share} from '../Share';
 import { ProductImage } from '../ProductImage';
 
@@ -15,7 +15,7 @@ export function ProductCard({ product }: productProp) {
 			<ProductImage product={product} styles='h-full rounded-t-md'/>
 			<div className='flex flex-row items-center w-full justify-end'>
 			<Share product={product}/>
-			<OnCart product={product} />
+			<SaveOnCart product={product} />
 			</div>
 			</div>
 			

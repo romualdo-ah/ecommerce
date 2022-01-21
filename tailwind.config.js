@@ -5,11 +5,13 @@ module.exports = {
 			fontFamily: {
 				// 'varela-round': [ 'Varela Round', 'sans-serif' ],
 				montserrat: [ 'Montserrat', 'sans-serif' ]
+			},
+			keyframes: {
+				'bounce-short': {
+					'0%, 100%': { transform: 'rotate(-3deg)' },
+					'50%': { transform: 'rotate(3deg)' }
+				}
 			}
-			// backdropFilter: {
-			// 	none: 'none',
-			// 	blur: 'blur(10px)'
-			// }
 		}
 	},
 	plugins: [ require('@tailwindcss/line-clamp'), require('tailwindcss-filters') ]

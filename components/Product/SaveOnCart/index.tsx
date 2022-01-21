@@ -3,11 +3,11 @@ import { productProp } from '../../../interfaces';
 import {useCart} from '../../../hooks/useCart';
 import {RiShoppingCart2Fill,RiShoppingCart2Line} from 'react-icons/ri';
 
-export const OnCart=({product}:productProp)=>{
+export const SaveOnCart=({product}:productProp)=>{
 
     const { cart, removeProduct, addProduct } = useCart();
 	const [ liked, setLiked ] = useState(false);
-
+	const [animated,setAnimated]=useState(false);
 
     useEffect(
 		() => {
@@ -27,9 +27,22 @@ export const OnCart=({product}:productProp)=>{
 			setLiked(false);
 		} else {
 			addProduct(product.id);
+			handleAnimation();
 			setLiked(true);
 		}
 	};
+
+	const handleAnimation = () => {
+		setAnimated(true);
+		console.log('animated');
+		setTimeout(() => {
+			setAnimated(false);
+			console.log('animated off');
+		}
+		, 200);
+
+	};
+
 
     return (
         <div
@@ -37,9 +50,9 @@ export const OnCart=({product}:productProp)=>{
 				className=" right-0 m-2 w-8 h-8 flex justify-center items-center self-end"
 			>
 				{liked ? (
-					<RiShoppingCart2Fill className=" text-gray-500 w-5 h-5" />
+					<RiShoppingCart2Fill className={`text-blue-300 w-5 h-5 ${animated && "text-blue-500"}`} />
 				) : (
-					<RiShoppingCart2Line  className="text-gray-400 w-5 h-5 focus:pointer-events-auto" />
+					<RiShoppingCart2Line  className={`text-gray-400 w-5 h-5 focus:pointer-events-auto `} />
 				)}
 			</div>
     )
