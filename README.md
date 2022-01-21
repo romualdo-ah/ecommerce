@@ -1,6 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Packages used on the project
+## Description
+
+This is a project for test coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
+
+
+## Packages in this project
 
 * React
 * Next.JS
