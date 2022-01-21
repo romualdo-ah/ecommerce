@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Description
 
-This is a project for test coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
+This is a project to testing coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
 
 
 ## Packages in this project
