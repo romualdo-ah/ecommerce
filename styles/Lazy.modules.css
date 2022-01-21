@@ -1,0 +1,32 @@
+.lazy-load-image-background.blur.lazy-load-image-loaded img {
+    height: 100%;
+    object-fit: cover;
+    
+}
+.rounded-t-md> .lazy-load-image-background.blur.lazy-load-image-loaded img{
+    border-top-left-radius: .375rem;
+    border-top-right-radius: .375rem;
+}
+
+.rounded-r-md> .lazy-load-image-background.blur.lazy-load-image-loaded img{
+    border-top-right-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+
+.rounded-md> .lazy-load-image-background.blur.lazy-load-image-loaded img{
+    border-radius: .375rem;
+}
+
+.rounded-l-md> .lazy-load-image-background.blur.lazy-load-image-loaded img {
+    
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+}
+
+.lazy-load-image-background.blur.lazy-load-image-loaded{
+    position: relative;
+    display:flex;
+    background-color: #fafafa;
+    height: 100%;
+
+}
