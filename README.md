@@ -4,7 +4,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is a project to testing coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
 
-
 ## Packages in this project
 
 * React
@@ -16,7 +15,9 @@ This is a project to testing coding habilities, it is part of the recruiting pro
 * Sweetalert2
 * react-lazy-load-image-component
 
-## [Checklist here](https://www.notion.so/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac)
+## [Checklist here](https://mixed-guilty-937.notion.site/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac)
+
+[`https://mixed-guilty-937.notion.site/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac`](https://mixed-guilty-937.notion.site/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac)
 
 ## Commands used to init the project
 
