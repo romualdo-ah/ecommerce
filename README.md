@@ -4,6 +4,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is a project to testing coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
 
+### Some consideration
+
+Project uses an external URL to serve the images so the original (lorempixel.com) was'nt working so it changed (lorempixel.com.br).
+
+```
+lorempixel
+```
+
+
+```
+lorempixel
+```
+
+
 ## Packages in this project
 
 * React
