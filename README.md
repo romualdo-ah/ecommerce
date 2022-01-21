@@ -8,6 +8,8 @@ This is a project to testing coding habilities, it is part of the recruiting pro
 
 To track the progress of the project was used Notion.io.
 
+Added an sharing url button on each product to enhance buying experience.
+
 The project uses an external URL to serve the images, so the original (http://lorempixel.com) did not work, and was changed (http://lorempixel.com.br).
 
 
