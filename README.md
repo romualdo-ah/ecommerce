@@ -6,9 +6,10 @@ This is a project to testing coding habilities, it is part of the recruiting pro
 
 ### Some consideration
 
-Project uses an external URL to serve the images so the original (http://lorempixel.com) was'nt working so it changed (http://lorempixel.com.br).
+The project uses an external URL to serve the images, so the original (http://lorempixel.com) did not work, and was changed (http://lorempixel.com.br).
 
-## Packages in this project
+
+Packages in this project
 
 * React
 * Next.JS
