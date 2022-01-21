@@ -1,7 +1,3 @@
-```
-
-```
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## [Checklist here](https://www.notion.so/Ecommerce-checklist-f3db197a74ec46feb6f9fee75b9aadac)
