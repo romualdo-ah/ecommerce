@@ -6,6 +6,8 @@ This is a project to testing coding habilities, it is part of the recruiting pro
 
 ### Some consideration
 
+To track the progress of the project was used Notion.io.
+
 The project uses an external URL to serve the images, so the original (http://lorempixel.com) did not work, and was changed (http://lorempixel.com.br).
 
 
