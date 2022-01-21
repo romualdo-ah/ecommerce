@@ -50,7 +50,7 @@ export const SaveOnCart=({product}:productProp)=>{
 				className=" right-0 m-2 w-8 h-8 flex justify-center items-center self-end"
 			>
 				{liked ? (
-					<RiShoppingCart2Fill className={`text-blue-300 w-5 h-5 ${animated && "text-blue-500"}`} />
+					<RiShoppingCart2Fill className={`text-sky-400 w-5 h-5 transition-all ${animated && "text-sky-500 scale-110"}`} />
 				) : (
 					<RiShoppingCart2Line  className={`text-gray-400 w-5 h-5 focus:pointer-events-auto `} />
 				)}
