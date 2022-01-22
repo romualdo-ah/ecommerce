@@ -3,6 +3,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { productProp } from '../../interfaces';
 
+/*
+	This component is used to display the product common details
+	like name and price
+	if the current url is not the product page
+	When the user clicks on the product name it should redirects to the product page with the product id,
+	else stays on the current page
+*/
 export function Product({ product }: productProp) {
     const router = useRouter();
 	
