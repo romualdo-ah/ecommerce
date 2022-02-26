@@ -5,7 +5,7 @@ module.exports = {
 		API_URL: process.env.API_URL
 	},
 	images: {
-		domains: [ 'lorempixel.com.br' ]
+		domains: [ 'http://lorempixel.com.br' ]
 	},
 	async redirects() {
 		return [
