@@ -2,13 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Description
 
-This is a project to testing coding habilities, it is part of the recruiting process of [`Liven.tech`](https://liven.tech) company.
+This is a project to testing coding habilities, it is part of the recruiting process of the [`Liven.tech`](https://liven.tech) company.
 
 ### Some consideration
 
 To track the progress of the project was used Notion.io.
 
-Added an sharing url button on each product to enhance buying experience.
+Added a sharing url button on each product to enhance buying experience.
 
 The project uses an external URL to serve the images, so the original (http://lorempixel.com) did not work, and was changed (http://lorempixel.com.br).
 
